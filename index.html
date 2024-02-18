@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de conversão</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <h2>Calculadora</h2>
+        <h3>Decimal para Binário</h3>
+        <div>
+            <h4>Decimal</h4>
+            <input type="number" id="decimal"><br><br>
+            <h4>Binário</h4>
+            <input type="text" id="binario" readonly>
+        </div>
+        <div id="botoes">
+            <div>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+            </div>
+            <div>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+            </div>
+            <div>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </div>
+            <div><button>0</button></div>
+            <div>
+                <button class="botaoextra" onclick="limparVisor()">Limpar</button>
+                <button type="button" class="botaoextra" onclick="converter()">Converter</button>
+                <a href="https://www.google.com.br/" target="_blank"><button class="botaoextra">Ajuda</button></a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

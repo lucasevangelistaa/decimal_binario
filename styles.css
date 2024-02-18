@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: auto;
+    padding: 0px;
+}
+
+body {
+    width: 350px;
+}
+
+main {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px 1px #cacaca;
+}
+
+h2 {
+    background-color: red;
+    color: white;
+}
+
+h4 {
+    text-align: left;
+}
+
+input {
+    width: 330px;
+    height: 20px;
+}
+
+input:hover {
+    background-color: rgb(231, 231, 231);
+    
+}
+#botoes {
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 7px;
+    width: 75px;
+    background-color: rgb(37, 37, 238);
+    color: white;
+    border: rgb(37, 37, 238);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.botaoextra {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
